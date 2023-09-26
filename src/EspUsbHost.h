@@ -65,7 +65,7 @@ public:
   void _onDataGamepad();
 
   void setHIDLocal(hid_local_enum_t code);
-  void sendCommand(const char* command);
+  void sendCommand(const char* command); // nueva funcion
   
   static uint8_t getItem(uint8_t val){
     return val & 0xfc;
